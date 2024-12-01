@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tech Solutions Inc.</title>
+        <style>
+            .form-container {
+                align-self: center;
+                background: rgba(255, 255, 255, 0.8);
+                border-radius: 15px;
+                padding: 30px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+                width: 40%;
+                max-width: 5000px; 
+                text-align: left; 
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 100;
+            }
+
+            h1, h2, p, a{
+                text-align: center;
+            }
+
+            body {
+                background-color: #e6e6e6;
+                font-family: Arial, Helvetica, sans-serif;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                text-align: center;
+            }
+
+            .container {
+                text-align: center;
+            }
+
+            .fix {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tech Solutions Inc.</h1>
+        <div class="container">
+            <img src="abstract-logo-design-for-any-corporate-brand-business-company-vector.jpg" alt="Company Logo" width="15%"/>
+        </div>
+        <p>Leading Provider of Innovative Technology Solutions</p>
+        <a href="HTML Exercise.pdf">To know more about us click here</a>
+        <br>
+        <br>
+        <h2>Our Products</h2>
+        <table border="1" align="center">
+            <tr>
+                <td colspan="3"><b>Product details</b></td>
+            </tr>
+            <tr>
+                <td><b>Product Name</b></td>
+                <td><b>Description</b></td>
+                <td><b>Price</b></td>
+            </tr>
+            <tr>
+                <td>Smartphone</td>
+                <td rowspan="2">Latest model with advanced features</td>
+                <td>$799</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Smartwatch</td>
+                <td>Track your fitness and stay connected</td>
+                <td>$199</td>
+            </tr>
+        </table>
+        <br>
+        <h2>Employee Registration</h2>
+        <div class="fix">
+            <div class="form-container">
+                <form method="post" action="mailto:jhishnu.dev@gmail.com">
+                    <label for="fname">Full Name:</label>
+                    <br>
+                    <input type="text" name="fname" placeholder="Enter Your Name" id="fname" size="90"/>
+                    <br>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <br>
+                    <input type="text" name="email" id="email" size="90">
+                    <br>
+                    <br>
+                    <label for="passwd">Password (Give Employee Code as Password):</label>
+                    <br>
+                    <input type="password" name="passwd" id="passwd" size="90">
+                    <br>
+                    <br>
+                    <label for="pos">Position:</label>
+                    <br>
+                    <input type="text" name="pos" id="pos" size="90">
+                    <br>
+                    <br>
+                    <label for="gender">Gender:</label>
+                    <br>
+                    <input type="radio" name="gender" value="male" id="gender">Male<br>
+                    <input type="radio" name="gender" value="female" id="gender">Female<br>
+                    <br>
+                    <br>
+                    <label for="rm">Remarks:</label>
+                    <br>
+                    <textarea cols="50" rows="3" name="rm" id="rm"></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" id="submit" value="Submit"/>
+                    <input type="reset" name="reset" id="reset" value="Reset"/>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>
